@@ -99,6 +99,17 @@ public static final String TAG="MainActivity";
         });
 
 
+        public void feature4(View view){
+            Button btn_feature_1= (Button) findViewById(R.id.update_data);
+            if(btn_feature_1.getText().toString().equals("功能1")){
+                btn_feature_1.setText("啦啦啦");
+            }else{
+                btn_feature_1.setText("djfoadodfafj");
+                btn_feature_1.setText("gameover");
+            }
+        }
+
+
 
     }
     /**
