@@ -112,8 +112,15 @@ public static final String TAG="MainActivity";
             btn_feature_1.setText("啦啦啦");
         }else{
             btn_feature_1.setText("djfoadodfafj");
+            btn_feature_1.setText("gameover");
         }
     }
+    /**
+     * feature-1
+     * display HelloWorld
+     * @param view
+     */
+
 
 
 }
